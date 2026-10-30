@@ -1,0 +1,49 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+ENV/
+.python-version.local
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Jupyter and local notebooks state
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
